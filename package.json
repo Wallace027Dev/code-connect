@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "mock": "json-server posts.json -p 3042"
+    "mock": "json-server mock/posts.json -p 3042"
   },
   "dependencies": {
     "react": "^18",
