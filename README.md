@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Code Connect
 
-## Getting Started
+Uma rede social para devs.
 
-First, run the development server:
+## Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Node.js**: v20.05.0
+- **Next.js**: v14.0.0
+- **json-server**: v1.0.0-alpha.22
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Requisitos
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Node.js**: Certifique-se de ter o Node.js na versão v20.05.0 instalada. Você pode baixar e instalar o Node.js [aqui](https://nodejs.org/).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Instalação
 
-## Learn More
+1. Clone o repositório para a sua máquina local:
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd seu-repositorio
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Instale as dependências do projeto:
+    ```bash
+    npm install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Mock com Servidor Falso
 
-## Deploy on Vercel
+Na raiz do projeto, há um servidor falso em funcionamento usando o `json-server` na versão 1.0.0-alpha.22. Para iniciar o servidor, siga os passos abaixo:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Inicie o servidor falso:
+    ```bash
+    npm run mock
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. O servidor falso estará rodando em [http://localhost:3000](http://localhost:3000).
+
+## Scripts Disponíveis
+
+- `npm run dev`: Inicia o servidor de desenvolvimento do Next.js.
+- `npm run build`: Cria a build de produção.
+- `npm run start`: Inicia o servidor Next.js em modo de produção.
+- `npm run mock`: Inicia o servidor falso usando o `json-server`.
+
+## Contribuição
+
+1. Faça um fork do projeto.
+2. Crie uma nova branch com a sua feature/bugfix: `git checkout -b minha-feature`.
+3. Commit suas mudanças: `git commit -m 'Adiciona minha feature'`.
+4. Faça o push para a branch: `git push origin minha-feature`.
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
