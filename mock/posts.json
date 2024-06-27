@@ -1,5 +1,11 @@
 {
-  "posts": [
+  "first": 1,
+  "prev": null,
+  "next": 2,
+  "last": 2,
+  "pages": 2,
+  "items": 12,
+  "data": [
     {
       "id": 1,
       "cover": "https://raw.githubusercontent.com/viniciosneves/code-connect-assets/main/posts/introducao-ao-react.png",

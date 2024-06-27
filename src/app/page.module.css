@@ -1,6 +1,17 @@
 .main {
-  display: grid;
-  grid-template-columns: 486px 486px;
-  grid-auto-rows: 431px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 24px;
+}
+
+.links {
+  color: #bfffc3;
+  font-size: 18px;
+  flex-flow: 1;
+  text-align: center;
+}
+
+.links a {
+  margin: 0 8px;
 }
