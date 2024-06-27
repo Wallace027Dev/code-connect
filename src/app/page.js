@@ -1,10 +1,13 @@
 import { CardPost } from "@/components/CardPost";
+import logger from "@/logger";
 
 async function getAllPosts() {
   const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/posts`);
   if (!response.ok) {
-    console.error("Alguma coisa errada aconteceu");
+    logger.error("Alguma coisa errada aconteceu");
+    return [];
   }
+  logger.info("Posts obtidos com sucesso");
   return response.json();
 }
 
