@@ -1,4 +1,5 @@
 import { CardPost } from "@/components/CardPost";
+import styles from './page.module.css'
 import logger from "@/logger";
 
 async function getAllPosts() {
@@ -15,7 +16,7 @@ export default async function Home() {
   const posts = await getAllPosts();
 
   return (
-    <main>
+    <main className={styles.main}>
       {posts.map((post) => (
         <CardPost post={post} />
       ))}

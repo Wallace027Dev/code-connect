@@ -46,25 +46,3 @@ Para configurar a URL do servidor falso, crie um arquivo `.env.local` na raiz do
 
 ```plaintext
 NEXT_PUBLIC_API_URL=http://localhost:3000
-
-Com esses passos, você terá configurado a rota do servidor falso como uma variável de ambiente no seu projeto Next.js.
-
-
-## Scripts Disponíveis
-
-- `npm run dev`: Inicia o servidor de desenvolvimento do Next.js.
-- `npm run build`: Cria a build de produção.
-- `npm run start`: Inicia o servidor Next.js em modo de produção.
-- `npm run mock`: Inicia o servidor falso usando o `json-server`.
-
-## Contribuição
-
-1. Faça um fork do projeto.
-2. Crie uma nova branch com a sua feature/bugfix: `git checkout -b minha-feature`.
-3. Commit suas mudanças: `git commit -m 'Adiciona minha feature'`.
-4. Faça o push para a branch: `git push origin minha-feature`.
-5. Abra um Pull Request.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
