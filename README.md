@@ -40,6 +40,16 @@ Na raiz do projeto, há um servidor falso em funcionamento usando o `json-server
 
 2. O servidor falso estará rodando em [http://localhost:3000](http://localhost:3000).
 
+## Configuração de Variáveis de Ambiente
+
+Para configurar a URL do servidor falso, crie um arquivo `.env.local` na raiz do projeto e adicione a seguinte linha:
+
+```plaintext
+NEXT_PUBLIC_API_URL=http://localhost:3000
+
+Com esses passos, você terá configurado a rota do servidor falso como uma variável de ambiente no seu projeto Next.js.
+
+
 ## Scripts Disponíveis
 
 - `npm run dev`: Inicia o servidor de desenvolvimento do Next.js.

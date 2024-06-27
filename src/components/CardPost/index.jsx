@@ -19,7 +19,7 @@ export const CardPost = ({ post }) => {
         <h2>{post.title}</h2>
         <p>{post.body}</p>
       </section>
-      <footer>
+      <footer className={styles.footer}>
         <Avatar imageSrc={post.author.avatar} name={post.author.username} />
       </footer>
     </article>
