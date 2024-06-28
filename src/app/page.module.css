@@ -6,10 +6,9 @@
 }
 
 .links {
-  color: #bfffc3;
-  font-size: 18px;
-  flex-flow: 1;
+  width: 100%;
   text-align: center;
+  flex-flow: 1;
 }
 
 .links a {

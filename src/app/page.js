@@ -6,7 +6,7 @@ import Link from "next/link";
 async function getAllPosts(page) {
   try {
     const response = await fetch(
-      `${process.env.NEXT_PUBLIC_API_URL}/posts?_page=${page}&_per_page=4`
+      `${process.env.NEXT_PUBLIC_API_URL}/posts?_page=${page}&_per_page=6`
     );
     if (!response.ok) throw new Error("Falha na rede");
     return response.json();
